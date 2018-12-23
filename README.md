@@ -1,2 +1,2 @@
-# egroceries.githu.io
+# egroceries.github.io
 Website for my MBA Project
