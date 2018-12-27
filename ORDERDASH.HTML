@@ -1,0 +1,138 @@
+<html>
+<head><title>Order DashBoard</title>
+<style>
+table, th,td
+{
+margin-top: 100px;
+border: 1px solid SKYBLUE;
+border-collapse: collapse;
+width: 40%;
+height: 40%;
+text-align: center;
+}
+
+button 
+{
+  background-color: skyblue;
+  color: Black;
+  padding: 7px;
+  margin: 10px;
+  border: 1px;
+  cursor: pointer;
+  width: 35%;
+  height: 55%;
+  border-radius: 25px
+}
+
+input[type=text], input[type=password] 
+{
+  width: 20%;
+  height: 10%;
+  padding: 12px 20px;
+  margin: 10px 20px;
+  display: inline-black;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px
+}
+
+
+button:hover 
+{
+  opacity: 0.8;
+}
+
+
+body 
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+   
+table.d {
+  table-layout: fixed;
+  width: 40%;  
+}
+
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body background="background2.jpg">
+<table class="d" align="center" background="Newbg.jpg">
+<col width="5">
+<col width="10">
+<col width="10">
+<col width="10">
+<tr>
+<td colspan=3> <label><b>Welcome Gurunath</b></label></td> 
+<td colspan=1><a href="adminlogin.html">Log Out</a></td>
+</tr>
+<tr>
+<td colspan=4> <img src="Logo.png" alt="Website Logo" style="width:200px;height:200px;">
+</td>
+
+<tr> 
+<td colspan=4 bgcolor=SKYBLUE><label><b>Dashboard</b></label></td>
+</tr>
+
+<tr>
+<th> S.No </th>
+<th> Order Date </th>
+<th> Order ID </th>
+<th> Function </th>
+</tr>
+
+<tr>
+<td> 1 </td>
+<td> 27-DEC-2018 </td>
+<td> EGDEC2700001 </td>
+<td> Print </td>
+</tr>
+
+<tr>
+<td colspan=4> <Button type="submit" >Mark as InProgress</button> </td>
+</tr>
+
+<tr>
+<td colspan=4> Upload Pricing List <input type="file" name="pic" id="pic"></td>
+</tr>
+
+<tr>
+<td colspan=4> Enter Bill Amount <input type="text"> 
+<Button type="submit" onclick="window.location.href='Dashboard.html'">Mark as Ready for Delivery</button> </td>
+</tr>
+
+
+
+
+
+</table>
+
+
+
+</body>
+
+</html>

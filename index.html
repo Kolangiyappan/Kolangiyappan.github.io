@@ -1,0 +1,93 @@
+<html>
+<head><title>Home Page</title>
+
+<style>
+table, th,td
+{
+margin-top: 100px;
+border: none;
+width: 30%;
+height: 20%;
+text-align: center;
+}
+
+input[type=text], input[type=password] 
+{
+  width: 50%;
+  height: 50%;
+  padding: 12px 20px;
+  margin: 10px 20px;
+  display: inline-black;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px
+}
+
+
+button 
+{
+  background-color: skyblue;
+  color: Black;
+  padding: 14px 0px;
+  margin: 14px 0;
+  border: 2px;
+  cursor: pointer;
+  width: 30%;
+  height: 50%;
+  border-radius: 25px
+}
+
+button:hover 
+{
+  opacity: 0.8;
+}
+
+
+body 
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+                      
+</style>
+
+</head>
+
+<body background="background2.jpg">
+
+<table align="center" background="Newbg.jpg">
+<tr>
+<td> <img src="Logo.png" alt="Website Logo" style="width:200px;height:200px;">
+</td>
+</tr>
+
+<tr>
+<td colspan=2 align=center> <label for="Login"><b>Login</b></label></td>
+</tr>
+
+<tr>
+<td>
+<label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+</td>
+</tr>
+
+<tr>
+<td>    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+</td>
+</tr>
+
+<tr> 
+<td colspan=2>
+<Button type="submit" onclick="window.location.href='Mainmenu.html'" />Login</button>
+<Button type="submit" onclick="window.location.href='Signup.html'" />Sign Up</button>
+</td>
+</tr>
+
+<tr>
+<td><a href="adminlogin.html"> Admin Login </a></td>
+</tr>
+
+</table>
+</body>
+</html>

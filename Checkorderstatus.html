@@ -1,0 +1,113 @@
+<html>
+<head><title>Check Order Status</title>
+<style>
+table, th,td
+{
+margin-top: 100px;
+border: 1px solid black;
+border-collapse: collapse;
+width: 30%;
+height: 20%;
+text-align: center;
+}
+
+button 
+{
+  background-color: skyblue;
+  color: Black;
+  padding: 8px;
+  margin: 10px;
+  border: 1px;
+  cursor: pointer;
+  width: 50%;
+  height: 70%;
+  border-radius: 25px
+}
+
+
+button:hover 
+{
+  opacity: 0.8;
+}
+
+
+body 
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+   
+table.d {
+  table-layout: fixed;
+  width: 50%;  
+}
+
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body background="background2.jpg">
+<table class="d" align="center" background="Newbg.jpg">
+<col width="5">
+<col width="5">
+<col width="10">
+<col width="15">
+<tr>
+<td colspan=3> <label><b>Welcome Kolangiyappan</b></label></td>
+<td colspan=1><a href="index.html">Log Out</a></td>
+</tr>
+<tr>
+<td colspan=4> <img src="Logo.png" alt="Website Logo" style="width:200px;height:200px;">
+</td>
+
+<tr> 
+<td colspan=4 bgcolor=skyblue><label><b>Check Order Status</b></label></td>
+</tr>
+
+<tr>
+<th> S.No </th>
+<th> Date </th>
+<th> Order ID </th>
+<th> Status </th>
+</tr>
+
+<tr>
+<td> 1 </td>
+<td> 27-Dec-2018 </td>
+<td> EGDEC2700001 </td>
+<td> Order Placed </td>
+</tr>
+<tr>
+<td colspan=4>
+<Button type="submit" onclick="window.location.href='Mainmenu.html'" />Back to Mainmenu</button>
+</td>
+</tr>
+</table>
+
+
+
+</body>
+
+</html>
